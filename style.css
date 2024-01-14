@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --mainColor: #04ddb2;
+  --whiteColor: #fff;
+  --headingColor: #333;
+  --textColor: #767676;
+}
+body {
+  scroll-behavior: smooth;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--whiteColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+.header h2 {
+  color: var(--headingColor);
+  font-size: 30px;
+}
+.navbar {
+  text-align: center;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.navbar a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+.head-btn {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  padding: 13px 47px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--whiteColor);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.main-container h1 {
+  color: var(--headingColor);
+  font-weight: 800;
+  font-size: 50px;
+}
+.main-container h1 span {
+  color: var(--mainColor);
+}
+.main-container p {
+  padding: 12px 12px 30px 12px;
+  color: var(--headingColor);
+  font-size: 20px;
+}
+.main-container img {
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.calltoaction {
+  background-color: var(--whiteColor);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0px 70px 0px;
+}
+.calltoaction h2 {
+  font-size: 50px;
+  color: var(--headingColor);
+  padding: 25px;
+}
+.calltoaction .btn {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  padding: 13px 47px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.calltoaction hr {
+  margin-top: 100px;
+  color: var(--textColor);
+  width: 60%;
+}
+.footer {
+  width: 100vw;
+  background-color: var(--whiteColor);
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 0px 40px 80px 40px;
+}
+.footer div .links {
+  display: flex;
+  flex-direction: column;
+}
+.footer div .foot-logo {
+  font-size: 22px;
+  padding: 10px 0px;
+}
+.footer div h2 {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.footer div .links a {
+  color: var(--textColor);
+  text-decoration: none;
+  padding: 12px 0px;
+}
+.footer .social-icons i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 8px;
+}
